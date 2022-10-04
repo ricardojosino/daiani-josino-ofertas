@@ -41,7 +41,7 @@
         sm:text-[30px] sm:leading-[37px]
         md:text-[30px] md:leading-[40px]
         lg:text-[38px] lg:leading-[45px]
-        xl:text-[40px] lg:leading-[52px]
+        xl:text-[40px] lg:leading-[45px]
     }
 
     .theme-h2
@@ -131,6 +131,14 @@
         text-[15px] leading-[22px]
         md:text-[16px] md:leading-[24px]
         lg:text-[16px] lg:leading-[24px]
+    }
+
+    .theme-text-mini
+    {
+        @apply
+        font-roboto font-light
+        text-[12px] leading-[18px]
+        md:text-[14px] md:leading-[20px]
     }
 
     .theme-section-p
